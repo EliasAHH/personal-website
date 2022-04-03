@@ -157,6 +157,12 @@ body.dark-theme {
 
 /*=============== PROFILE ===============*/
 
+.profile__image {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
 .profile {
     position: relative;
     padding-top: 3.5rem;
@@ -172,8 +178,8 @@ body.dark-theme {
 }
 
 .profile__perfil {
-    width: 100px;
-    height: 100px;
+    width: 76px;
+    height: 109px;
     background: linear-gradient(180deg, hsla(var(--hue), var(--sat), var(--lig), 1) 0%, hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
     border-radius: 50%;
     overflow: hidden;
@@ -189,7 +195,7 @@ body.dark-theme {
 .profile__border {
     border: 3.5px solid var(--first-color);
     justify-self: center;
-    width: 115px;
+    width: 83px;
     height: 115px;
     border-radius: 50%;
     display: grid;
@@ -533,12 +539,12 @@ body.dark-theme {
         padding-top: 4rem;
     }
     .profile__border {
-        width: 135px;
-        height: 135px;
+        width: 100px;
+        height: 126px;
         margin-bottom: 1rem;
     }
     .profile__perfil {
-        width: 120px;
+        width: 93px;
         height: 120px;
     }
     .profile__perfil img {
